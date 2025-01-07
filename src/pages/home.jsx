@@ -98,9 +98,9 @@ function Home() {
 
             <div className="form-create" style={{...(show && {filter: "blur(10px)"} ), ...(showcreate && {filter: "blur(10px)"} )}} >
                 <div className="nav">
-                    <a href="#create" onClick={()=>setShowcreate(true)}>create note</a>
+                    <a onClick={()=>setShowcreate(true)}>create note</a>
                     <input type="text" placeholder="search notes" onChange={(e) => setSearchQuery(e.target.value)}/>
-                    <a className="logout-btn" href="/logout">logout</a>
+                    <a className="logout-btn" href="#/logout">logout</a>
 
                     <select onChange={(e) =>setSorting(e.target.value)}>
                         

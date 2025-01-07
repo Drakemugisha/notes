@@ -77,7 +77,7 @@ function Form({ route, method }) {
             >
                 {name}
             </button>
-            { name === "Register" ? <a href="/login">log in</a> : <a href="/register">sign up</a> }
+            { name === "Register" ? <a href="#/login">log in</a> : <a href="#/register">sign up</a> }
         </form>
     );
 }
